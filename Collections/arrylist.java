@@ -5,6 +5,7 @@ package Collections;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.LinkedList;
 
 
 public class arrylist {
@@ -19,15 +20,15 @@ public class arrylist {
     
     System.out.println(numbers);
 
-    Collection<String> str = new ArrayList<String>();
-    str.add("Faisal");
-    str.add("Faisal");
-    str.add("Faisal");
-    str.add("Faisal");
-    str.add("Faisal");
+    LinkedList<String> str = new LinkedList<String>();
+    str.add("Faisal 1");
+    str.add("Faisal 2");
+    str.add("Faisal 3");
+    str.add("Faisal 4");
+    str.add("Faisal 5");
     System.out.println(str);
-    numbers.removeIf(num-> num==0);
-    System.out.println(numbers);
+    System.out.println(str.get(1));
+    
     }
     
     
