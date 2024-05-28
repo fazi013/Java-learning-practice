@@ -13,17 +13,17 @@ public class comparater {
                 return Integer.compare(s.length(), t.length());
             }
         };
-        List <String> str = new ArrayList<String>() ;
-        str.add("null");
-        str.add("Faisal");
-        str.add("Ahmad");
-        str.add("Akram Shahzad");
-        str.add("null the value");
-        str.add("numbers are equal");
-        str.add("null last");
-        Collections.sort(str,com);
+        List <String> Str = new ArrayList<String>() ;
+        Str.add("null");
+        Str.add("Faisal");
+        Str.add("Ahmad");
+        Str.add("Akram Shahzad");
+        Str.add("null the value");
+        Str.add("numbers are equal");
+        Str.add("null last");
+        Collections.sort(Str,com);
 
-        for(String n : str){System.out.println(n);}
+        for(String n : Str){System.out.println(n);}
         
 
 
